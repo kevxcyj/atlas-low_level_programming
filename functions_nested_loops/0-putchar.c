@@ -1,13 +1,13 @@
-#include "_putchar.h"
+#include "main.h"
 
 int main(void)
 {
-	char _putchar[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
+	char main.h[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
 	unsigned int c;
 
-	for (c = 0; c < sizeof(_putchar); c++)
+	for (c = 0; c < sizeof(main.h); c++)
 	{
-		_putchar(_putchar[c]);
+		_putchar(main.h[c]);
 	}
 _putchar('\n');
 return (0);

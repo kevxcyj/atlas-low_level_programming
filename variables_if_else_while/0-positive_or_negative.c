@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
+/* This runs the program to assign a random number
+ * to the variable n each time it is executed */
 
 int main(void)
 {

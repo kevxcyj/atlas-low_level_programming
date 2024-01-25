@@ -2,18 +2,19 @@
 #include "main.h"
 
 /**
+ *_isupper - Detects uppercase
  *
- * Main - Main function 
+ *@c: fuction parameter
  *
- * Return
+ *Return: 1 and 0
  **/
 
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
-	else	
+	else
 		return (0);
-}			
+}
 
 

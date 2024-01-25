@@ -5,7 +5,7 @@
  * int mul - Multiplication
  **/
 
-int mul(int, int b);
+int mul(int a, int b)
 {
 	return (a * b);
 }

@@ -2,12 +2,12 @@
 /**
  * reset_to_98 - Changes value to ninetyeight
  *
- * @n: pointer to n
+ * @n: points to n
  *
- * Return: void
+ * Return: 0
  **/
 
 void reset_to_98(int *n)
 {
-	*n =98;
-}	
+	*n = 98;
+}

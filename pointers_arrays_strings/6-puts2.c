@@ -1,4 +1,11 @@
 #include "main.h"
+/**
+ * puts2 - Prints every other character
+ * @str: String
+ *
+ * Return: 0
+ **/
+
 
 void puts2(char *str)
 {
@@ -12,6 +19,6 @@ void puts2(char *str)
 			l = str[c];
 			putchar(l);
 		}
-	}	
+	}
 putchar('\n');
 }

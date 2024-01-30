@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * point_array - Prints elements of array of integers
+ * print_array - Prints elements of array of integers
  * @a: parameter
  * @n: parameter
  *

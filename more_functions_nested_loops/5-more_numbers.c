@@ -17,10 +17,10 @@ void more_numebrs(void)
 		{
 			if (n > 9)
 			{
-				_putchar('0' + n /10);
+			putchar('0' + n /10);
 			}
-			_putchar('0' + n % 10);
+			putchar('0' + n % 10);
 		}
-		_putchar('\n');
+putchar('\n');
 	}
 }	

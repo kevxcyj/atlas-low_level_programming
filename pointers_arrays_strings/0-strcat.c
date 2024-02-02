@@ -12,7 +12,7 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[a++])
 		c++;
-	
+
 	for (a = 0; src[a]; a++)
 		dest[c++] = src[a];
 

@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * _isalpha - Checks for alphabetic character
+ * @c: parameter
  *
  * Return: 0
  **/

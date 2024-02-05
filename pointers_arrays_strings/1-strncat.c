@@ -3,6 +3,7 @@
  *_strncat - Concatenates two strings
  *@dest: string
  *@src: string
+ *@n: parameter
  *
  *Return: 0
  **/

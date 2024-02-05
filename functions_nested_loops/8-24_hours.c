@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * jack_bauer - Prints every minute of the day of Jack Bauer
- * @c: parameter
  *
  * Return: 0
  **/

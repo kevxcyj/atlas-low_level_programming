@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * _strcmp - Compares two strings
- * @s1 - string
- * @s2 - string
+ * @s1: string
+ * @s2: string
  *
  * Return: 0
  **/

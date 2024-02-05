@@ -1,3 +1,12 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * *leet - Encodes a string
+ * @n: string
+ *
+ * Return: 0
+ **/
+
 char *leet(char *n)
 {
 	int b = 0;

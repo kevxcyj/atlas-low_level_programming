@@ -29,5 +29,5 @@ char *leet(char *n)
 			n[b] = '1';
 	}
 
-return (n);
+return (0);
 }

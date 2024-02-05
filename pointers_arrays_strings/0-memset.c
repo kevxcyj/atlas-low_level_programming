@@ -4,7 +4,7 @@
  * _memset - Fills memory with a constant byte
  * @s: parameter
  * @b: parameter
- *
+ * @n: parameter
  * Return: s
  **/
 

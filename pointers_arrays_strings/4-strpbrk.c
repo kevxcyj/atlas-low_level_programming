@@ -2,7 +2,7 @@
 
 
 /**
- * strpbrk - Locates first occur of char from bytes in accept
+ * _strpbrk - locates first occur of char from bytes in accept
  * @s: string
  * @accept: bytes
  *

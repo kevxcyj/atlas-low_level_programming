@@ -35,5 +35,5 @@ char *cap_string(char *str)
 	k++;
 	}
 
-return (0);
+return (str);
 }

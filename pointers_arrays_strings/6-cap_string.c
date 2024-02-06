@@ -28,11 +28,8 @@ char *cap_string(char *str)
 		    str[k - 1] == '(' ||
 		    str[k - 1] == ')' ||
 		    str[k - 1] == '{' ||
-		    str[k - 1] == '}' ||
-		    k == 0)
+		    str[k - 1] == '}')
 		str[k] -= 32;
-
-	k++;
 	}
 
 return (str);

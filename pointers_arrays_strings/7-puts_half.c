@@ -11,9 +11,9 @@ if (k % 2 == 0)
 {
 	for ((b = k / 2); str[b] != 0; b++)
 	{
-	
+
 		m = str[b];
-		putchar(m);
+		_putchar(m);
 	}
 }
 else
@@ -21,8 +21,8 @@ else
 	for ((b = (k - 1) / 2); str[b] != 0; b++)
 	{
 		m = str[b];
-		putchar(m);
+		_putchar(m);
 	}
 }
-putchar('\n');
+_putchar('\n');
 }

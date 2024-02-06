@@ -9,24 +9,21 @@
 
 char *leet(char *n)
 {
-	int b = 0;
+	int c;
+	int d;
 
-	for (b = 0; n[b] != '\0'; b++)
+	char *a = "aAeEoOtTlL";
+	char *b = "4433007711";
+
+	for (c = 0; n[c] != '\0'; c++)
 	{
-		while (n[b] == 'A' || n[b] == 'a')
-			n[b] = '4';
-
-		while (n[b] == 'E' || n[b] == 'e')
-			n[b] = '3';
-
-		while (n[b] == 'O' || n[b] == 'o')
-			n[b] = '0';
-
-		while (n[b] == 'T' || n[b] == 't')
-			n[b] = '7';
-
-		while (n[b] == 'L' || n[b] == 'l')
-			n[b] = '1';
+		for (d = 0; d < 10; d++)
+		{
+			if (n[d] == a[d])
+			{
+				n[c] = b[d];
+			}
+		}
 	}
 
 return (n);

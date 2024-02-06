@@ -19,7 +19,7 @@ char *leet(char *n)
 	{
 		for (d = 0; d < 10; d++)
 		{
-			if (n[d] == a[d])
+			if (n[c] == a[d])
 			{
 				n[c] = b[d];
 			}

@@ -2,11 +2,12 @@
 
 
 /**
- * strpbrk - Searches a string for any of a set of a bytes
- * @s: parameter
- * @accept: parameter
+ * strpbrk - Locates first occur of char from bytes in accept
+ * @s: string
+ * @accept: bytes
  *
- * Return: 0
+ *
+ * Return: A pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
  **/
 
 char *_strpbrk(char *s, char *accept)

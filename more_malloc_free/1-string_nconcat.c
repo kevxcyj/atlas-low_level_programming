@@ -47,5 +47,5 @@ pointer = malloc(sizeof(char) * (a + n) + 1);
 
 		pointer[a + c] = '\0';
 	}
-return (NULL);
+return (pointer);
 }

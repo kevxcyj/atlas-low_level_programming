@@ -31,7 +31,7 @@ k = malloc(sizeof(int *) * height);
 
 			for (b = 0; b <= height; b++)
 				free(k[b]);
-			return(NULL);
+			return (NULL);
 		}
 	for (b = 0; b < width; b++)
 		k[a][b] = 0;

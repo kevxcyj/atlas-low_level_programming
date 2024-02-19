@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * free_grid \ - Frees a two dimensional grid
+ * free_grid - Frees a two dimensional grid
  * @grid: parameter
  * @height: parameter
  *

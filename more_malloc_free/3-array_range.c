@@ -22,8 +22,8 @@ pointer = malloc(sizeof(int) * aot);
 
 	if (pointer == NULL)
 		return (NULL);
-	for (a = 0; max <= min; a++)
+	for (a = 0; min <= max; a++)
 		pointer[a] = min++;
 
-return (NULL);
+return (pointer);
 }

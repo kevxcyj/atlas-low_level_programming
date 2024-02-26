@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdio.h>
 /**
- * init_dog - Initializes a variable of type 
+ * init_dog - Initializes a variable of type
  * @d: pointer
  * @name: parameter
  * @age: parameter

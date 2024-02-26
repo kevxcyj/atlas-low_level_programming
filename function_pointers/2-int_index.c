@@ -6,6 +6,8 @@
  * @array: Array
  * @size: Size
  * @cmp: parameter
+ *
+ * Return: -1
  **/
 
 int int_index(int *array, int size, int (*cmp)(int))

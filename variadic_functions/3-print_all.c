@@ -8,7 +8,7 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *r; 
+	char *r;
 	char *s = "";
 	va_list list;
 
@@ -30,7 +30,7 @@ void print_all(const char * const format, ...)
 					printf("%s%f", s, va_arg(list, double));
 					break;
 				case 's':
-					
+
 					r = va_arg(list, char *);
 
 					if (!r)
@@ -47,5 +47,5 @@ void print_all(const char * const format, ...)
 	}
 
 	printf("\n");
-	va_end(list);
+va_end(list);
 }

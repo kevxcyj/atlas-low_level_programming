@@ -2,7 +2,7 @@
 
 /**
  * print_strings - Prints strings
- * @separator - separator
+ * @separator: separator
  * @n: parameter
  **/
 

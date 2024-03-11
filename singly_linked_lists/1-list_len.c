@@ -2,9 +2,9 @@
 
 /**
  * list_len - Returns the # of elements
- * @h - list
+ * @h: list
  *
- * Return - # of elements
+ * Return: # of elements
  **/
 
 size_t list_len(const list_t *h)

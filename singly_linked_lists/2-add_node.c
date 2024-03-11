@@ -17,9 +17,28 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	new->str = strdup(str);
 
-	new->len = _strlen(str);
+	new->len = strlen(str);
 	new->next = *head;
 	*head = new;
 
 return (new);
 }
+
+/**
+ * _strlen - Returns lenght of string
+ * @s: Char
+ *
+ * Return: i
+ **/
+
+int _strlen(const char *s)
+{
+        int i = 0;
+
+        while (s[i] != '\0')
+        {
+                i++;
+        }
+return (i);
+}
+

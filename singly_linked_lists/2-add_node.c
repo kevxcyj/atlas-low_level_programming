@@ -1,6 +1,24 @@
 #include "lists.h"
 
 /**
+ * _strlen - Returns lenght of string
+ * @s: Char
+ *
+ * Return: i
+ **/
+
+int _strlen(const char *s)
+{
+        int i = 0;
+
+        while (s[i] != '\0')
+        {
+                i++;
+        }
+return (i);
+}
+
+/**
  * add_node - Adds a new node
  * @head: Start of list
  * @str: parameter
@@ -22,23 +40,5 @@ list_t *add_node(list_t **head, const char *str)
 	*head = new;
 
 return (new);
-}
-
-/**
- * _strlen - Returns lenght of string
- * @s: Char
- *
- * Return: i
- **/
-
-int _strlen(const char *s)
-{
-        int i = 0;
-
-        while (s[i] != '\0')
-        {
-                i++;
-        }
-return (i);
 }
 

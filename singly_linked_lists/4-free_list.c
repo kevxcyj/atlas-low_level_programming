@@ -2,7 +2,7 @@
 
 /**
  * free_list - Release memory
- * @head - pointer
+ * @head: pointer
  *
  **/
 

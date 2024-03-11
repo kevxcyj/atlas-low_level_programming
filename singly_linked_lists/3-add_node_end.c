@@ -28,7 +28,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	list->len = _strlen(list->str);
+	list->len = strlen(list->str);
 	list->next = NULL;
 
 	if(*head == NULL)
@@ -51,9 +51,9 @@ return (list);
  * Return: lenght
  **/
 
-unsigned int _strlen(char *str)
+int _strlen(char *str)
 {
-	unsigned int i;
+	int i;
 
 	for (i = 0; str[i]; i++)
 		;

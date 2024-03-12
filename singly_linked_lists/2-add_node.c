@@ -26,18 +26,20 @@ return (new);
 
 /**
  * _strlen - Returns lenght of str
- * @s: char
+ * @p: string
+ * @s: Parameter
  *
- * Return: len
+ * Return: lenght
  **/
 
 int _strlen(const char *s)
 {
-	int i = 0;
+        const char *c = s;
 
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-return (i);
+        while (*c != '\0')
+        {
+                c++;
+        }
+
+        return (c - s);
 }

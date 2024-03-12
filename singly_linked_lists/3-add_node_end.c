@@ -54,12 +54,12 @@ return (list);
 
 int _strlen(const char *s)
 {
-	const char *p = s;
+	const char *c = s;
 
-	while (*p != '\0')
+	while (*c != '\0')
 	{
-		p++;
+		c++;
 	}
 
-	return (p - s);
+	return (c - s);
 }

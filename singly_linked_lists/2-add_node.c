@@ -34,12 +34,12 @@ return (new);
 
 int _strlen(const char *s)
 {
-        const char *c = s;
+	const char *c = s;
 
-        while (*c != '\0')
-        {
-                c++;
-        }
+	while (*c != '\0')
+	{
+		c++;
+	}
 
-        return (c - s);
+	return (c - s);
 }

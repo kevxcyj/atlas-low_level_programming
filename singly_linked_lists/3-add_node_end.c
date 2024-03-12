@@ -46,7 +46,6 @@ return (list);
 
 /**
  * _strlen - Returns lenght of str
- * @c: string
  * @s: Parameter
  *
  * Return: lenght

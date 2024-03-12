@@ -18,7 +18,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	{
 		c = d >> i;
 
-		if(c & 1)
+		if (c & 1)
 			b++;
 	}
 

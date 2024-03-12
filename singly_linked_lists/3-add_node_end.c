@@ -28,7 +28,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	list->len = strlen(list->str);
+	list->len = _strlen(list->str);
 	list->next = NULL;
 
 	if(*head == NULL)
@@ -51,11 +51,14 @@ return (list);
  * Return: lenght
  **/
 
-int _strlen(char *str)
+int _strlen(const char *s)
 {
-	int i;
+	const char *p = s;
 
-	for (i = 0; str[i]; i++)
-		;
-return (i);
+	while (*p != '\0')
+	{
+		p++;
+	}
+
+	return (p - s);
 }

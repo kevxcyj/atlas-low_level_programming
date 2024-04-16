@@ -10,14 +10,15 @@
 
 int binary_search(int *array, size_t size, int value)
 {
+	/* Search boundaries */
 	size_t t;
-	size_t r;
-	size_t l;
+	size_t r = size - 1 ;
+	size_t l = 0;
 
 	if (array == NULL)
 		return (-1);
-	/* Seach Boundaries */
-	for (l = 0, r = size - 1; r >= l;)
+
+	while (l <= r)
 	{
 		printf("Searching in Array: ");
 		for (t = l; t < r; t++)

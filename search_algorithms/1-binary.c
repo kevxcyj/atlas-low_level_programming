@@ -16,14 +16,14 @@ int binary_search(int *array, size_t size, int value)
 
 	if (array == NULL)
 		return (-1);
-
+	/* Seach Boundaries */
 	for (l = 0, r = size - 1; r >= l;)
 	{
 		printf("Searching in Array: ");
 		for (t = l; t < r; t++)
 			printf("%d, ", array[t]);
 		printf("%d\n", array[t]);
-
+		/* Calculate middle index */
 		t = l + (r - l) / 2;
 		if (array[t] == value)
 			return (t);
@@ -32,5 +32,5 @@ int binary_search(int *array, size_t size, int value)
 		else
 			l = t + 1;
 	}
-	return (-1);
+	return (0);
 }

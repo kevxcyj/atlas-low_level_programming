@@ -1,4 +1,5 @@
 #include "search_algos.h"
+#include <stdio.h>
 /**
  * binary_search - Searches for a value in a sorted array
  * @array: Array
@@ -23,7 +24,7 @@ int binary_search(int *array, size_t size, int value)
 			printf("%d, ", array[i]);
 		printf("%d\n", array[i]);
 		/* Calculate middle index */
-		t = (r + l) / 2;
+		t = (l + r) / 2;
 
 		/* Checking for the mid value */
 		if (array[t] < value)
